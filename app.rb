@@ -48,7 +48,7 @@ TkButton.new do
   pack 'fill' => 'both', 'expand' => 'yes'
 end
 TkButton.new do
-  text '音量ー'
+  text '音量－'
   command do
     device.send_data(CODE_VOLUME_DOWN)
   end
